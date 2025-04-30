@@ -1,54 +1,51 @@
-# React + TypeScript + Vite
+# Emmanuel — Frontend Developer Test Solution for Approovia
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project follows a structured, thoughtfully planned approach with clean, maintainable code and best practices in UI/UX and React development.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Deployed Version
 
-## Expanding the ESLint configuration
+🔗 [https://emmanuel-test-solution.vercel.app/](https://emmanuel-test-solution.vercel.app/)
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## Setup Instructions
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+1. Clone the repository:
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+   ```bash
+   git clone https://github.com/Emmanuelbreezy/Emmanuel-Frontend-Developer-Take-Home-Solution
+   cd Emmanuel-Frontend-Developer-Take-Home-Solution
+   ```
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+2. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+3. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+---
+
+## Features
+
+- 🗂️ Drag and drop projects into folders
+- ✏️ Double-click on a folder name to edit it
+- 💾 Press Enter to save folder name
+- ⚡ Smooth transitions and mobile responsive layout
+
+---
+
+## Tech Stack
+
+- **Vite + React + Typescript**
+- **@dnd-kit/core** for drag and drop
+- **TailwindCSS** for styling
+
+---
