@@ -33,7 +33,7 @@ This project follows a structured, thoughtfully planned approach with clean, mai
 
 ---
 
-## Features
+## How to Use the App
 
 - 🗂️ Drag and drop projects into folders
 - ✏️ Double-click on a folder name to edit it
